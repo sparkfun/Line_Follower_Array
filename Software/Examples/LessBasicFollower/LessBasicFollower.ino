@@ -11,7 +11,9 @@ RedBotMotors motors; // Instantiate the motor control object. This only needs
 #define READ_LINE 1
 #define GO_FORWARD 2
 #define GO_LEFT 3
-#define GO_RIGHT 4
+#define GO_LEFT_90 4
+#define GO_RIGHT 5
+#define GO_RIGHT_90 6
 
 uint8_t state;
 SensorBar mySensorBar;
@@ -67,7 +69,15 @@ void loop()
     }
     else
     {
-      nextState = IDLE_STATE;
+      if( mySensorBar.getPosition() > 50 )
+      {
+        nextState = GO_LEFT_90;
+      }
+      if( mySensorBar.getPosition() < -50 )
+      {
+        nextState = GO_RIGHT_90;
+      }
+
     }
     break;
   case GO_FORWARD:
@@ -80,10 +90,22 @@ void loop()
     motors.leftMotor(-0);
     nextState = READ_LINE;
     break;
+  case GO_LEFT_90:
+    motors.rightMotor(127);
+    motors.leftMotor(127);
+    nextState = READ_LINE;
+    delay(20);
+    break;
   case GO_RIGHT:
     motors.rightMotor(0);
     motors.leftMotor(-80);
     nextState = READ_LINE;
+    break;
+  case GO_RIGHT_90:
+    motors.rightMotor(-127);
+    motors.leftMotor(-127);
+    nextState = READ_LINE;
+    delay(20);
     break;
   default:
     motors.stop();       // Stops both motors
@@ -92,7 +114,6 @@ void loop()
   state = nextState;
   //delay(100);
 }
-
 
 
 
