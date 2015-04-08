@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -232,6 +232,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-2.7686" y1="1.016" x2="-1.016" y2="1.016" width="0.127" layer="21"/>
 <wire x1="-2.9972" y1="0" x2="-3.3528" y2="0" width="0.127" layer="21"/>
 <wire x1="-3.175" y1="0.1778" x2="-3.175" y2="-0.1778" width="0.127" layer="21"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -20846,19 +20848,38 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <text x="355.092" y="11.43" size="2.54" layer="94">Marshall Taylor</text>
 <text x="419.608" y="6.858" size="2.54" layer="94">V02</text>
 <text x="193.04" y="254" size="2.54" layer="97">Low order nibble</text>
-<text x="129.54" y="254" size="2.54" layer="97">High order nibble</text>
-<text x="165.1" y="264.414" size="5.08" layer="97">Sensors</text>
+<text x="37.592" y="260.35" size="2.54" layer="97">Supply +5V</text>
+<text x="165.1" y="266.7" size="5.08" layer="97">Sensors</text>
 <text x="297.18" y="246.38" size="2.54" layer="97">High order nibble</text>
 <text x="297.18" y="185.42" size="2.54" layer="97">Low order nibble</text>
-<text x="330.2" y="256.794" size="5.08" layer="97">Buffers</text>
-<text x="40.64" y="261.874" size="5.08" layer="97">Power</text>
-<text x="73.66" y="86.614" size="5.08" layer="97">I2C/RedBot Interface</text>
-<wire x1="0" y1="104.14" x2="104.14" y2="104.14" width="0.1524" layer="97"/>
-<wire x1="266.7" y1="104.14" x2="431.8" y2="104.14" width="0.1524" layer="97"/>
+<text x="330.2" y="266.7" size="5.08" layer="97">Buffers</text>
+<text x="38.1" y="266.7" size="5.08" layer="97">Power</text>
+<text x="228.6" y="88.9" size="5.08" layer="97">RedBot Interface</text>
+<wire x1="0" y1="101.6" x2="104.14" y2="101.6" width="0.1524" layer="97" style="longdash"/>
+<wire x1="266.7" y1="101.6" x2="330.2" y2="101.6" width="0.1524" layer="97" style="longdash"/>
+<wire x1="330.2" y1="101.6" x2="431.8" y2="101.6" width="0.1524" layer="97" style="longdash"/>
 <wire x1="106.68" y1="279.4" x2="104.14" y2="279.4" width="0.1524" layer="97"/>
-<wire x1="104.14" y1="279.4" x2="104.14" y2="104.14" width="0.1524" layer="97"/>
-<wire x1="104.14" y1="104.14" x2="266.7" y2="104.14" width="0.1524" layer="97"/>
-<wire x1="266.7" y1="104.14" x2="266.7" y2="279.4" width="0.1524" layer="97"/>
+<wire x1="104.14" y1="279.4" x2="104.14" y2="101.6" width="0.1524" layer="97" style="longdash"/>
+<wire x1="104.14" y1="101.6" x2="203.2" y2="101.6" width="0.1524" layer="97" style="longdash"/>
+<wire x1="203.2" y1="101.6" x2="266.7" y2="101.6" width="0.1524" layer="97" style="longdash"/>
+<wire x1="266.7" y1="101.6" x2="266.7" y2="279.4" width="0.1524" layer="97" style="longdash"/>
+<wire x1="330.2" y1="101.6" x2="330.2" y2="0" width="0.1524" layer="97" style="longdash"/>
+<wire x1="203.2" y1="101.6" x2="203.2" y2="0" width="0.1524" layer="97" style="longdash"/>
+<text x="63.5" y="88.9" size="5.08" layer="97">I2C Expander</text>
+<text x="119.126" y="10.922" size="2.54" layer="97">Set I2C addres with SJ1 and SJ2</text>
+<text x="228.6" y="83.058" size="2.54" layer="97">Open SJ3 to disconnect I2C pull-up resistors</text>
+<text x="141.986" y="92.456" size="2.54" layer="97">Possible I2C addresses</text>
+<text x="146.05" y="88.9" size="2.54" layer="97" align="top-center">A1:A0
+00
+01
+10
+11</text>
+<text x="177.8" y="88.9" size="2.54" layer="97" align="top-center">I2C Address
+0x3E (0111110b)
+0x3F (0111111b)
+0x70 (1110000b)
+0x71 (1110001b)</text>
+<wire x1="139.7" y1="85.598" x2="195.58" y2="85.598" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="U101" gate="G$1" x="213.36" y="215.9" rot="MR0"/>
@@ -20937,19 +20958,19 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <instance part="SUPPLY11" gate="G$1" x="162.56" y="182.88"/>
 <instance part="R28" gate="G$1" x="162.56" y="147.32" rot="R90"/>
 <instance part="SUPPLY12" gate="G$1" x="162.56" y="154.94"/>
-<instance part="SJ1" gate="G$1" x="129.54" y="25.4" rot="R270"/>
-<instance part="SJ2" gate="G$1" x="149.86" y="25.4" rot="R270"/>
-<instance part="GND27" gate="1" x="121.92" y="20.32"/>
-<instance part="GND28" gate="1" x="142.24" y="20.32"/>
-<instance part="GND30" gate="1" x="60.96" y="17.78"/>
-<instance part="R30" gate="G$1" x="208.28" y="48.26" rot="R90"/>
-<instance part="GND15" gate="1" x="208.28" y="27.94"/>
-<instance part="SUPPLY7" gate="G$1" x="228.6" y="40.64"/>
-<instance part="R32" gate="G$1" x="187.96" y="48.26" rot="R90"/>
+<instance part="SJ1" gate="G$1" x="142.24" y="25.4" rot="R270"/>
+<instance part="SJ2" gate="G$1" x="162.56" y="25.4" rot="R270"/>
+<instance part="GND27" gate="1" x="134.62" y="20.32"/>
+<instance part="GND28" gate="1" x="154.94" y="20.32"/>
+<instance part="GND30" gate="1" x="73.66" y="17.78"/>
+<instance part="R30" gate="G$1" x="276.86" y="50.8" rot="R90"/>
+<instance part="GND15" gate="1" x="276.86" y="30.48"/>
+<instance part="SUPPLY7" gate="G$1" x="289.56" y="43.18"/>
+<instance part="R32" gate="G$1" x="256.54" y="50.8" rot="R90"/>
 <instance part="GND31" gate="1" x="299.72" y="213.36"/>
 <instance part="R29" gate="G$1" x="299.72" y="223.52" rot="R90"/>
-<instance part="C3" gate="G$1" x="40.64" y="60.96"/>
-<instance part="U1" gate="G$1" x="76.2" y="45.72"/>
+<instance part="C3" gate="G$1" x="53.34" y="60.96"/>
+<instance part="U1" gate="G$1" x="88.9" y="45.72"/>
 <instance part="U3" gate="U1" x="53.34" y="152.4"/>
 <instance part="C4" gate="G$1" x="71.12" y="149.86"/>
 <instance part="C5" gate="G$1" x="63.5" y="137.16"/>
@@ -20957,10 +20978,10 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <instance part="GND33" gate="1" x="71.12" y="127"/>
 <instance part="GND34" gate="1" x="38.1" y="127"/>
 <instance part="P+3" gate="1" x="33.02" y="167.64"/>
-<instance part="GND32" gate="1" x="40.64" y="53.34"/>
-<instance part="R31" gate="G$1" x="33.02" y="35.56"/>
-<instance part="C6" gate="G$1" x="40.64" y="27.94"/>
-<instance part="GND35" gate="1" x="40.64" y="17.78"/>
+<instance part="GND32" gate="1" x="53.34" y="53.34"/>
+<instance part="R31" gate="G$1" x="45.72" y="35.56"/>
+<instance part="C6" gate="G$1" x="53.34" y="27.94"/>
+<instance part="GND35" gate="1" x="53.34" y="17.78"/>
 <instance part="D5" gate="G$1" x="388.62" y="238.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="391.668" y="242.316" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="400.304" y="241.173" size="1.778" layer="96" rot="R180"/>
@@ -21001,23 +21022,23 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <attribute name="NAME" x="401.828" y="166.116" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="410.718" y="164.719" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="JP1" gate="G$1" x="198.12" y="35.56" rot="R180"/>
-<instance part="GND36" gate="1" x="187.96" y="27.94"/>
-<instance part="SUPPLY13" gate="G$1" x="175.26" y="40.64"/>
-<instance part="SJ3" gate="G$1" x="198.12" y="58.42" rot="R270"/>
-<instance part="SUPPLY14" gate="G$1" x="198.12" y="66.04"/>
+<instance part="JP1" gate="G$1" x="266.7" y="38.1" rot="R180"/>
+<instance part="GND36" gate="1" x="256.54" y="30.48"/>
+<instance part="SUPPLY13" gate="G$1" x="243.84" y="43.18"/>
+<instance part="SJ3" gate="G$1" x="266.7" y="60.96" rot="R270"/>
+<instance part="SUPPLY14" gate="G$1" x="266.7" y="68.58"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="330.2" y="0"/>
-<instance part="JP2" gate="G$1" x="50.8" y="40.64"/>
-<instance part="LOGO2" gate="G$1" x="447.04" y="116.84"/>
-<instance part="LOGO3" gate="G$1" x="452.12" y="96.52"/>
-<instance part="LOGO4" gate="G$1" x="538.48" y="119.38"/>
-<instance part="LOGO5" gate="G$1" x="543.56" y="96.52"/>
-<instance part="LOGO6" gate="G$1" x="469.9" y="73.66"/>
-<instance part="FID1" gate="G$1" x="502.92" y="45.72"/>
-<instance part="FID2" gate="G$1" x="518.16" y="48.26"/>
-<instance part="STANDOFF1" gate="G$1" x="541.02" y="48.26"/>
-<instance part="STANDOFF2" gate="G$1" x="558.8" y="45.72"/>
+<instance part="JP2" gate="G$1" x="63.5" y="40.64"/>
+<instance part="LOGO2" gate="G$1" x="355.6" y="76.2"/>
+<instance part="LOGO3" gate="G$1" x="342.9" y="76.2"/>
+<instance part="LOGO4" gate="G$1" x="355.6" y="63.5"/>
+<instance part="LOGO5" gate="G$1" x="342.9" y="63.5"/>
+<instance part="LOGO6" gate="G$1" x="355.6" y="50.8"/>
+<instance part="FID1" gate="G$1" x="368.3" y="50.8"/>
+<instance part="FID2" gate="G$1" x="381" y="50.8"/>
+<instance part="STANDOFF1" gate="G$1" x="393.7" y="50.8"/>
+<instance part="STANDOFF2" gate="G$1" x="406.4" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -21185,26 +21206,26 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <wire x1="152.4" y1="121.92" x2="152.4" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="25.4" x2="121.92" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="25.4" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="25.4" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="25.4" x2="134.62" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="G$1" pin="3"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="144.78" y1="25.4" x2="142.24" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="25.4" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="25.4" x2="154.94" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="25.4" x2="154.94" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="SJ2" gate="G$1" pin="3"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="63.5" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="22.86" x2="60.96" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="22.86" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="GND30" gate="1" pin="GND"/>
 <pinref part="U1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="205.74" y1="33.02" x2="208.28" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="33.02" x2="208.28" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="35.56" x2="276.86" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="35.56" x2="276.86" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
@@ -21232,18 +21253,18 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <segment>
 <pinref part="GND32" gate="1" pin="GND"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="55.88" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="55.88" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="25.4" x2="40.64" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="25.4" x2="53.34" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="GND35" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="33.02" x2="187.96" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="35.56" x2="256.54" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="GND36" gate="1" pin="GND"/>
-<wire x1="187.96" y1="33.02" x2="187.96" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="35.56" x2="256.54" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -21309,8 +21330,8 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <pinref part="SUPPLY12" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<wire x1="205.74" y1="35.56" x2="228.6" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="35.56" x2="228.6" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="38.1" x2="289.56" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="38.1" x2="289.56" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="VCC"/>
 <pinref part="JP1" gate="G$1" pin="3"/>
 </segment>
@@ -21326,14 +21347,14 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 </segment>
 <segment>
 <pinref part="SUPPLY13" gate="G$1" pin="VCC"/>
-<wire x1="175.26" y1="40.64" x2="175.26" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="43.18" x2="243.84" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="4"/>
-<wire x1="175.26" y1="35.56" x2="190.5" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="38.1" x2="259.08" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SJ3" gate="G$1" pin="2"/>
 <pinref part="SUPPLY14" gate="G$1" pin="VCC"/>
-<wire x1="198.12" y1="63.5" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="66.04" x2="266.7" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -21438,8 +21459,8 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 </net>
 <net name="SEN1BUF" class="0">
 <segment>
-<wire x1="88.9" y1="66.04" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
-<label x="111.76" y="66.04" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="101.6" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
+<label x="124.46" y="66.04" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="I/O[0]"/>
 </segment>
 <segment>
@@ -21467,8 +21488,8 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 </net>
 <net name="SEN3BUF" class="0">
 <segment>
-<wire x1="111.76" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
-<label x="111.76" y="60.96" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="124.46" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
+<label x="124.46" y="60.96" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="I/O[2]"/>
 </segment>
 <segment>
@@ -21489,8 +21510,8 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 </net>
 <net name="SEN4BUF" class="0">
 <segment>
-<wire x1="88.9" y1="58.42" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
-<label x="111.76" y="58.42" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="101.6" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
+<label x="124.46" y="58.42" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="I/O[3]"/>
 </segment>
 <segment>
@@ -21591,8 +21612,8 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 </net>
 <net name="SEN5BUF" class="0">
 <segment>
-<wire x1="88.9" y1="55.88" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
-<label x="111.76" y="55.88" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="101.6" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
+<label x="124.46" y="55.88" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="I/O[4]"/>
 </segment>
 <segment>
@@ -21613,8 +21634,8 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 </net>
 <net name="SEN6BUF" class="0">
 <segment>
-<wire x1="88.9" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
-<label x="111.76" y="53.34" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="101.6" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
+<label x="124.46" y="53.34" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="I/O[5]"/>
 </segment>
 <segment>
@@ -21635,8 +21656,8 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 </net>
 <net name="SEN7BUF" class="0">
 <segment>
-<wire x1="88.9" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
-<label x="111.76" y="50.8" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="101.6" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
+<label x="124.46" y="50.8" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="I/O[6]"/>
 </segment>
 <segment>
@@ -21657,8 +21678,8 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 </net>
 <net name="SEN8BUF" class="0">
 <segment>
-<wire x1="88.9" y1="48.26" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
-<label x="111.76" y="48.26" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="101.6" y1="48.26" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
+<label x="124.46" y="48.26" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="I/O[7]"/>
 </segment>
 <segment>
@@ -21777,66 +21798,66 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 </net>
 <net name="A0" class="0">
 <segment>
-<wire x1="129.54" y1="30.48" x2="129.54" y2="35.56" width="0.1524" layer="91"/>
-<label x="129.54" y="35.56" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="142.24" y1="30.48" x2="142.24" y2="35.56" width="0.1524" layer="91"/>
+<label x="142.24" y="35.56" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="SJ1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="63.5" y1="30.48" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
-<label x="55.88" y="30.734" size="1.778" layer="95"/>
+<wire x1="76.2" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
+<label x="68.58" y="30.734" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="ADDR0"/>
 </segment>
 </net>
 <net name="A1" class="0">
 <segment>
-<wire x1="149.86" y1="30.48" x2="149.86" y2="35.56" width="0.1524" layer="91"/>
-<label x="149.86" y="35.56" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="162.56" y1="30.48" x2="162.56" y2="35.56" width="0.1524" layer="91"/>
+<label x="162.56" y="35.56" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="SJ2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="63.5" y1="27.94" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
-<label x="55.88" y="28.194" size="1.778" layer="95"/>
+<wire x1="76.2" y1="27.94" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
+<label x="68.58" y="28.194" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="ADDR1"/>
 </segment>
 </net>
 <net name="INT" class="0">
 <segment>
-<wire x1="63.5" y1="40.64" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
-<label x="55.88" y="40.894" size="1.778" layer="95"/>
+<wire x1="76.2" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
+<label x="68.58" y="40.894" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="!INT"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SDA" class="0">
 <segment>
-<wire x1="63.5" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
-<label x="55.88" y="48.514" size="1.778" layer="95"/>
+<wire x1="76.2" y1="48.26" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
+<label x="68.58" y="48.514" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="SDA"/>
 </segment>
 <segment>
-<wire x1="187.96" y1="38.1" x2="187.96" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="40.64" x2="256.54" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R32" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="38.1" x2="185.42" y2="38.1" width="0.1524" layer="91"/>
-<label x="185.42" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="256.54" y1="40.64" x2="254" y2="40.64" width="0.1524" layer="91"/>
+<label x="254" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP1" gate="G$1" pin="6"/>
-<wire x1="187.96" y1="38.1" x2="190.5" y2="38.1" width="0.1524" layer="91"/>
-<junction x="187.96" y="38.1"/>
+<wire x1="256.54" y1="40.64" x2="259.08" y2="40.64" width="0.1524" layer="91"/>
+<junction x="256.54" y="40.64"/>
 </segment>
 </net>
 <net name="SCL" class="0">
 <segment>
-<wire x1="63.5" y1="45.72" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
-<label x="55.88" y="45.974" size="1.778" layer="95"/>
+<wire x1="76.2" y1="45.72" x2="68.58" y2="45.72" width="0.1524" layer="91"/>
+<label x="68.58" y="45.974" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
-<wire x1="208.28" y1="38.1" x2="208.28" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="40.64" x2="276.86" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R30" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="38.1" x2="210.82" y2="38.1" width="0.1524" layer="91"/>
-<label x="210.82" y="38.1" size="1.27" layer="95" xref="yes"/>
+<wire x1="276.86" y1="40.64" x2="279.4" y2="40.64" width="0.1524" layer="91"/>
+<label x="279.4" y="40.64" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP1" gate="G$1" pin="5"/>
-<wire x1="208.28" y1="38.1" x2="205.74" y2="38.1" width="0.1524" layer="91"/>
-<junction x="208.28" y="38.1"/>
+<wire x1="276.86" y1="40.64" x2="274.32" y2="40.64" width="0.1524" layer="91"/>
+<junction x="276.86" y="40.64"/>
 </segment>
 </net>
 <net name="!ENBLSB" class="0">
@@ -21905,40 +21926,40 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDDM"/>
-<wire x1="63.5" y1="68.58" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="66.04" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
-<label x="40.64" y="71.12" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="76.2" y1="68.58" x2="53.34" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="66.04" x2="53.34" y2="68.58" width="0.1524" layer="91"/>
+<label x="53.34" y="71.12" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<junction x="40.64" y="68.58"/>
-<wire x1="40.64" y1="68.58" x2="40.64" y2="71.12" width="0.1524" layer="91"/>
+<junction x="53.34" y="68.58"/>
+<wire x1="53.34" y1="68.58" x2="53.34" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="25.4" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="25.4" x2="137.16" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="25.4" x2="149.86" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="25.4" x2="149.86" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="G$1" pin="1"/>
-<label x="137.16" y="27.94" size="1.27" layer="95" rot="R90" xref="yes"/>
+<label x="149.86" y="27.94" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<wire x1="154.94" y1="25.4" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="25.4" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="25.4" x2="170.18" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="25.4" x2="170.18" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="SJ2" gate="G$1" pin="1"/>
-<label x="157.48" y="27.94" size="1.27" layer="95" rot="R90" xref="yes"/>
+<label x="170.18" y="27.94" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<wire x1="27.94" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="35.56" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<label x="25.4" y="45.72" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="40.64" y1="35.56" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="35.56" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
+<label x="38.1" y="45.72" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="R31" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC2"/>
-<wire x1="88.9" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="43.18" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="43.18" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="43.18" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VCC1"/>
-<wire x1="96.52" y1="68.58" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="68.58" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
-<junction x="96.52" y="68.58"/>
-<label x="96.52" y="71.12" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="109.22" y1="68.58" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="68.58" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
+<junction x="109.22" y="68.58"/>
+<label x="109.22" y="71.12" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -21952,14 +21973,14 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <net name="~RESET" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="!RESET"/>
-<wire x1="63.5" y1="53.34" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="53.34" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="53.34" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R31" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="35.56" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="35.56" x2="53.34" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="35.56" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="33.02" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
-<junction x="40.64" y="35.56"/>
+<wire x1="53.34" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="33.02" x2="53.34" y2="35.56" width="0.1524" layer="91"/>
+<junction x="53.34" y="35.56"/>
 </segment>
 </net>
 <net name="SEN2BUF" class="0">
@@ -21972,8 +21993,8 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="63.5" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
-<label x="111.76" y="63.5" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="101.6" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
+<label x="124.46" y="63.5" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="I/O[1]"/>
 </segment>
 </net>
@@ -21981,16 +22002,16 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <segment>
 <pinref part="SJ3" gate="G$1" pin="1"/>
 <pinref part="R30" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="58.42" x2="208.28" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="58.42" x2="208.28" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="60.96" x2="276.86" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="60.96" x2="276.86" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="SJ3" gate="G$1" pin="3"/>
 <pinref part="R32" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="58.42" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="58.42" x2="187.96" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="60.96" x2="256.54" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="60.96" x2="256.54" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -22003,4 +22024,10 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
