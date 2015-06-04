@@ -28,38 +28,38 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="15" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -77,57 +77,57 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -136,19 +136,19 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -173,7 +173,7 @@
 <text x="94.2975" y="13.97" size="1.016" layer="21" font="vector" ratio="15" align="center">5V</text>
 <text x="99.1235" y="9.2075" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">GND</text>
 <text x="104.521" y="9.2075" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">INT</text>
-<text x="7.62" y="1.27" size="1.27" layer="16" font="vector" ratio="25" rot="MR180" align="center-right">v03</text>
+<text x="7.62" y="1.27" size="1.27" layer="16" font="vector" ratio="15" rot="MR180" align="center-right">v03</text>
 <text x="82.68335" y="18.48485" size="0.8128" layer="21" font="vector" ratio="15" rot="R270">I2C PULL</text>
 <text x="60.29325" y="15.24" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="bottom-center">A0</text>
 <text x="58.57875" y="13.0175" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">0</text>
@@ -2957,21 +2957,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <rectangle x1="-0.2286" y1="-0.381" x2="0.2286" y2="0.381" layer="21"/>
 </package>
-<package name="0603">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
 </packages>
 </library>
 </libraries>
@@ -3166,7 +3151,7 @@ design rules under a new name.</description>
 <element name="U5" library="SparkFun-PowerIC" package="SOT223" value="LM1117" x="20.32" y="11.1125" rot="MR0">
 <attribute name="PROD_ID" value="VREG-08170" x="20.32" y="11.1125" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="LED2" library="SparkFun-LED" package="LED-1206-BOTTOM" value="Green" x="6.35" y="15.24" rot="MR180">
+<element name="D9" library="SparkFun-LED" package="LED-1206-BOTTOM" value="Green" x="6.35" y="15.24" rot="MR180">
 <attribute name="PROD_ID" value="DIO-11076" x="6.35" y="15.24" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" value="Green" x="6.35" y="15.24" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3174,17 +3159,26 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="RES-07857" x="23.495" y="5.08" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" value="4.7K" x="23.495" y="5.08" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R10" library="SparkFun-Resistors" package="0603" value="68K" x="90.17" y="22.86" rot="MR180"/>
+<element name="R10" library="SparkFun-Resistors" package="0603-RES" value="68.1k" x="90.17" y="22.86" rot="MR180">
+<attribute name="PROD_ID" value="RES-09380" x="90.17" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" value="68.1k" x="90.17" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 <element name="R11" library="SparkFun-Resistors" package="0603-RES" value="100" x="67.31" y="25.4" rot="MR180">
 <attribute name="PROD_ID" value="RES-07863" x="67.31" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" value="100" x="67.31" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R12" library="SparkFun-Resistors" package="0603" value="68K" x="77.47" y="22.86" rot="MR180"/>
+<element name="R12" library="SparkFun-Resistors" package="0603-RES" value="68.1k" x="77.47" y="22.86" rot="MR180">
+<attribute name="PROD_ID" value="RES-09380" x="77.47" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" value="68.1k" x="77.47" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 <element name="R13" library="SparkFun-Resistors" package="0603-RES" value="100" x="54.61" y="25.4" rot="MR180">
 <attribute name="PROD_ID" value="RES-07863" x="54.61" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" value="100" x="54.61" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R14" library="SparkFun-Resistors" package="0603" value="68K" x="64.77" y="22.86" rot="MR180"/>
+<element name="R14" library="SparkFun-Resistors" package="0603-RES" value="68.1k" x="64.77" y="22.86" rot="MR180">
+<attribute name="PROD_ID" value="RES-09380" x="64.77" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" value="68.1k" x="64.77" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 <element name="R15" library="SparkFun-Resistors" package="0603-RES" value="10K" x="80.01" y="17.78" rot="MR0">
 <attribute name="PROD_ID" value="RES-00824" x="80.01" y="17.78" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" value="10K" x="80.01" y="17.78" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3193,15 +3187,18 @@ design rules under a new name.</description>
 <attribute name="VALUE" value="TSR-3386" x="15.24" y="18.0975" size="1.778" layer="27" display="off"/>
 <attribute name="PROD_ID" value="RES-09730" x="15.24" y="18.0975" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R2" library="SparkFun-Resistors" package="0603" value="33OHM" x="3.81" y="17.4625" rot="MR0">
-<attribute name="PROD_ID" value="RES-08270" x="3.81" y="17.4625" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" value="33OHM" x="3.81" y="17.4625" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="R2" library="SparkFun-Resistors" package="0603-RES" value="330" x="3.81" y="17.4625" rot="MR0">
+<attribute name="PROD_ID" value="RES-00818" x="3.81" y="17.4625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" value="330" x="3.81" y="17.4625" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R21" library="SparkFun-Resistors" package="0603-RES" value="100" x="41.91" y="25.4" rot="MR180">
 <attribute name="PROD_ID" value="RES-07863" x="41.91" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" value="100" x="41.91" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R22" library="SparkFun-Resistors" package="0603" value="68K" x="52.07" y="22.86" rot="MR180"/>
+<element name="R22" library="SparkFun-Resistors" package="0603-RES" value="68.1k" x="52.07" y="22.86" rot="MR180">
+<attribute name="PROD_ID" value="RES-09380" x="52.07" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" value="68.1k" x="52.07" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 <element name="R23" library="SparkFun-Resistors" package="0603-RES" value="100" x="29.21" y="25.4" rot="MR180">
 <attribute name="PROD_ID" value="RES-07863" x="29.21" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" value="100" x="29.21" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3214,9 +3211,18 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="RES-07863" x="3.81" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" value="100" x="3.81" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R26" library="SparkFun-Resistors" package="0603" value="68K" x="39.37" y="22.86" rot="MR180"/>
-<element name="R27" library="SparkFun-Resistors" package="0603" value="68K" x="26.67" y="22.86" rot="MR180"/>
-<element name="R28" library="SparkFun-Resistors" package="0603" value="68K" x="13.97" y="22.86" rot="MR180"/>
+<element name="R26" library="SparkFun-Resistors" package="0603-RES" value="68.1k" x="39.37" y="22.86" rot="MR180">
+<attribute name="PROD_ID" value="RES-09380" x="39.37" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" value="68.1k" x="39.37" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="R27" library="SparkFun-Resistors" package="0603-RES" value="68.1k" x="26.67" y="22.86" rot="MR180">
+<attribute name="PROD_ID" value="RES-09380" x="26.67" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" value="68.1k" x="26.67" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="R28" library="SparkFun-Resistors" package="0603-RES" value="68.1k" x="13.97" y="22.86" rot="MR180">
+<attribute name="PROD_ID" value="RES-09380" x="13.97" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" value="68.1k" x="13.97" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 <element name="R3" library="SparkFun-Resistors" package="0603-RES" value="100" x="92.71" y="25.4" rot="MR180">
 <attribute name="PROD_ID" value="RES-07863" x="92.71" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" value="100" x="92.71" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3229,7 +3235,10 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="RES-00824" x="82.2325" y="13.6525" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" value="10K" x="82.2325" y="13.6525" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R4" library="SparkFun-Resistors" package="0603" value="68K" x="102.87" y="22.86" rot="MR180"/>
+<element name="R4" library="SparkFun-Resistors" package="0603-RES" value="68.1k" x="102.87" y="22.86" rot="MR180">
+<attribute name="PROD_ID" value="RES-09380" x="102.87" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" value="68.1k" x="102.87" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 <element name="R9" library="SparkFun-Resistors" package="0603-RES" value="100" x="80.01" y="25.4" rot="MR180">
 <attribute name="PROD_ID" value="RES-07863" x="80.01" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" value="100" x="80.01" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3362,8 +3371,6 @@ design rules under a new name.</description>
 <element name="LOGO6" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="99.06" y="5.08"/>
 <element name="FID1" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="2.54" y="2.54" rot="MR0"/>
 <element name="FID2" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="104.14" y="20.32" rot="MR0"/>
-<element name="STANDOFF3" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="40.64" y="2.54"/>
-<element name="STANDOFF4" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="66.04" y="2.54"/>
 <element name="U6" library="SparkFun-DigitalIC" package="SO14" value="74AC125" x="34.29" y="13.335" rot="MR270">
 <attribute name="PROD_ID" value="IC-08880" x="34.29" y="13.335" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" value="74AC125" x="34.29" y="13.335" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -3376,10 +3383,6 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-07888" x="86.36" y="9.525" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="SJ5" library="SparkFun-Passives" package="PAD-JUMPER-3-2OF3_NC_BY_TRACE_YES_SILK_FULL_BOX" value="JUMPER-PAD-3-2OF3_NC_BY_TRACE_SMALL" x="87.15375" y="15.71625" rot="R270"/>
-<element name="STANDOFF5" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="58.26125" y="2.54"/>
-<element name="STANDOFF6" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="48.41875" y="2.54"/>
-<element name="STANDOFF7" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="34.29" y="2.54"/>
-<element name="STANDOFF8" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="72.39" y="2.54"/>
 <element name="R33" library="SparkFun-Resistors" package="0603-RES" value="4.7K" x="54.9275" y="16.66875" rot="MR180">
 <attribute name="PROD_ID" value="RES-07857" x="54.9275" y="16.66875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3387,6 +3390,12 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="RES-07857" x="41.91" y="18.25625" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="41.275" y="6.19125"/>
+<element name="STANDOFF1" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="34.29" y="2.54" rot="R90"/>
+<element name="STANDOFF2" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="40.64" y="2.54" rot="R90"/>
+<element name="STANDOFF3" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="48.41875" y="2.54" rot="R90"/>
+<element name="STANDOFF4" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="58.26125" y="2.54" rot="R90"/>
+<element name="STANDOFF5" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="66.04" y="2.54" rot="R90"/>
+<element name="STANDOFF6" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="72.39" y="2.54" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -3403,7 +3412,7 @@ design rules under a new name.</description>
 <contactref element="R15" pad="1"/>
 <contactref element="R16" pad="2"/>
 <contactref element="R16" pad="3"/>
-<contactref element="LED2" pad="C"/>
+<contactref element="D9" pad="C"/>
 <contactref element="U105" pad="2"/>
 <contactref element="U105" pad="4"/>
 <contactref element="U106" pad="2"/>
@@ -3979,7 +3988,7 @@ design rules under a new name.</description>
 <wire x1="69.59" y1="10.795" x2="71.4375" y2="10.795" width="0.254" layer="16"/>
 </signal>
 <signal name="N$18">
-<contactref element="LED2" pad="A"/>
+<contactref element="D9" pad="A"/>
 <contactref element="R2" pad="1"/>
 <wire x1="4.66" y1="17.4625" x2="4.66" y2="15.35" width="0.254" layer="16"/>
 <wire x1="4.66" y1="15.35" x2="4.55" y2="15.24" width="0.254" layer="16"/>
@@ -4566,6 +4575,24 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <errors>
+<approved hash="7,40,e6bb267ba67b66bb"/>
+<approved hash="7,40,cb0004c084c04b00"/>
+<approved hash="7,40,91505190d1901150"/>
+<approved hash="7,40,e0042044a0446004"/>
+<approved hash="7,40,38c46c429b01779c"/>
+<approved hash="7,40,77ab9b2658400cd6"/>
+<approved hash="7,40,9ecde435e4539eab"/>
+<approved hash="18,30,16ce14d014d016ce"/>
+<approved hash="18,30,12ce1cd01cd012ce"/>
+<approved hash="18,30,1b791d791d791b79"/>
+<approved hash="18,30,11ce1fd01fd011ce"/>
+<approved hash="18,30,552f555759575d57"/>
+<approved hash="18,30,15ce17d017d015ce"/>
+<approved hash="18,30,1572177017701572"/>
+<approved hash="18,30,11721f701f701172"/>
+<approved hash="18,30,555451545d5a5d5a"/>
+<approved hash="18,30,ada89bb11bb12da8"/>
+<approved hash="18,30,d36ab1f331f3536a"/>
 <approved hash="1,20,9c5c422243e39d9d"/>
 <approved hash="1,20,1bfef500fa1f14e1"/>
 <approved hash="1,20,13fd1d031c0212fc"/>
@@ -4706,30 +4733,18 @@ design rules under a new name.</description>
 <approved hash="1,20,3d0c1f321f633d5d"/>
 <approved hash="1,20,540a16741520575e"/>
 <approved hash="1,20,a54c17321762a51c"/>
-<approved hash="7,40,9ecde435e4539eab"/>
-<approved hash="18,30,12ce1cd01cd012ce"/>
-<approved hash="18,30,16ce14d014d016ce"/>
-<approved hash="18,30,1b791d791d791b79"/>
-<approved hash="18,30,15ce17d017d015ce"/>
-<approved hash="18,30,552f555759575d57"/>
-<approved hash="18,30,11ce1fd01fd011ce"/>
-<approved hash="18,30,11721f701f701172"/>
-<approved hash="18,30,1572177017701572"/>
-<approved hash="18,30,555451545d5a5d5a"/>
-<approved hash="18,30,ada89bb11bb12da8"/>
-<approved hash="18,30,d36ab1f331f3536a"/>
 <approved hash="19,1,4af482a038ffc914"/>
 <approved hash="19,1,4e9b790182bec0f8"/>
-<approved hash="5,1,08928c3513bd3ebd"/>
-<approved hash="19,1,9fa32981111646a1"/>
 <approved hash="5,1,0972885d17c53f4d"/>
-<approved hash="19,1,283f0d7b94fe502f"/>
-<approved hash="19,1,0566b75c8839db96"/>
 <approved hash="19,1,a38b82d71b2fdbe6"/>
-<approved hash="5,1,e94d43313c039250"/>
+<approved hash="5,1,08928c3513bd3ebd"/>
+<approved hash="19,1,0566b75c8839db96"/>
+<approved hash="19,1,283f0d7b94fe502f"/>
+<approved hash="19,1,9fa32981111646a1"/>
 <approved hash="5,1,a6f11596fc41dd85"/>
-<approved hash="5,1,db7288525cf9944f"/>
+<approved hash="5,1,e94d43313c039250"/>
 <approved hash="5,1,da928c3a588195bf"/>
+<approved hash="5,1,db7288525cf9944f"/>
 <approved hash="5,1,1318a0fe28f72284"/>
 <approved hash="19,1,e052f93d28dce222"/>
 <approved hash="19,1,33ebf08735a21b10"/>
@@ -4744,8 +4759,8 @@ design rules under a new name.</description>
 <approved hash="4,16,2a11b8c4a67c39a6"/>
 <approved hash="4,16,7660e97a38feaaeb"/>
 <approved hash="5,16,43cf16bce611a462"/>
-<approved hash="5,16,7c744e6d7c67341f"/>
 <approved hash="5,16,7c544a95788f342f"/>
+<approved hash="5,16,7c744e6d7c67341f"/>
 <approved hash="5,16,b00d0420b2c612d2"/>
 <approved hash="5,16,9d403e9e2da0f93c"/>
 <approved hash="5,16,256998bc56ab1789"/>
@@ -4776,9 +4791,9 @@ design rules under a new name.</description>
 <approved hash="5,16,a56e3977c38d5b38"/>
 <approved hash="5,16,ca52459a516520e8"/>
 <approved hash="5,16,a37a3b63c1b95d44"/>
+<approved hash="5,16,a136349fce555f00"/>
 <approved hash="5,16,ca8a4346565921d0"/>
 <approved hash="5,16,a7523fbbc5d1591c"/>
-<approved hash="5,16,a136349fce555f00"/>
 <approved hash="5,16,d8863d8fc7c52750"/>
 <approved hash="5,16,5dbe53fce953f7b7"/>
 <approved hash="5,16,2632d471d191b13c"/>
@@ -4787,13 +4802,13 @@ design rules under a new name.</description>
 <approved hash="5,16,5a121e4ce6fbbaa1"/>
 <approved hash="5,16,cd6490eaea5dafd7"/>
 <approved hash="5,16,b61c2a42f2f9f6a2"/>
-<approved hash="5,16,8568e8e6c25847d3"/>
 <approved hash="5,16,b21e36409efff2a4"/>
+<approved hash="5,16,8568e8e6c25847d3"/>
 <approved hash="5,16,596ebce0f65a7bd1"/>
-<approved hash="5,16,8a1a0e44f6e2cab8"/>
 <approved hash="5,16,bd6c80e2fa447fce"/>
-<approved hash="5,16,d7c3728d8578a41e"/>
+<approved hash="5,16,8a1a0e44f6e2cab8"/>
 <approved hash="5,16,4d149ddb9219c6dc"/>
+<approved hash="5,16,d7c3728d8578a41e"/>
 <approved hash="5,16,e33d940a6af0196b"/>
 <approved hash="5,16,e11992566c3c1b57"/>
 <approved hash="5,16,9f5590426e086483"/>
@@ -4814,44 +4829,44 @@ design rules under a new name.</description>
 <approved hash="5,16,3ff12a372e328dcd"/>
 <approved hash="5,16,1bc71db2ce9e65f3"/>
 <approved hash="5,16,2e247c21970aa049"/>
-<approved hash="5,16,f2bccc6965e4d1f5"/>
 <approved hash="5,16,dcadd952f530beda"/>
+<approved hash="5,16,f2bccc6965e4d1f5"/>
 <approved hash="5,16,de425759cf290436"/>
-<approved hash="5,16,36c907551dddc5e7"/>
+<approved hash="5,16,4ae209c9041e31aa"/>
+<approved hash="5,16,51a86a3351808ad4"/>
 <approved hash="5,16,1458c4d792c2056f"/>
+<approved hash="5,16,36c907551dddc5e7"/>
 <approved hash="5,16,c72a9646bf171042"/>
 <approved hash="5,16,8e6b96f92a888b6e"/>
 <approved hash="5,16,ab33e7ca5f94f675"/>
-<approved hash="5,16,4ae209c9041e31aa"/>
-<approved hash="5,16,51a86a3351808ad4"/>
-<approved hash="5,16,8ddfbec8380b23d3"/>
-<approved hash="5,16,4fb77e687e4d3b48"/>
 <approved hash="5,16,13f34637163275cf"/>
 <approved hash="5,16,4e241c238308b449"/>
-<approved hash="5,16,f32c8a467f170844"/>
+<approved hash="5,16,8ddfbec8380b23d3"/>
+<approved hash="5,16,4fb77e687e4d3b48"/>
+<approved hash="5,16,44a04acc0113cfa3"/>
 <approved hash="5,16,2394576ad676859c"/>
 <approved hash="5,16,06ea762725ea8644"/>
-<approved hash="5,16,44a04acc0113cfa3"/>
 <approved hash="5,16,4dae5e3349804ad2"/>
-<approved hash="5,16,ae24fc258f0eb849"/>
-<approved hash="5,16,b9d98ac8000b2bd5"/>
+<approved hash="5,16,f32c8a467f170844"/>
 <approved hash="5,16,c9dbf1f81d2039b7"/>
+<approved hash="5,16,b9d98ac8000b2bd5"/>
 <approved hash="5,16,afb79e6e724b3748"/>
-<approved hash="5,16,5e69bf2705eb8a07"/>
-<approved hash="5,16,f3550c2a8bf5a15e"/>
-<approved hash="5,16,29ac523351806ad0"/>
+<approved hash="5,16,ae24fc258f0eb849"/>
 <approved hash="5,16,36929d88d2df5119"/>
 <approved hash="5,16,10556c465d5065f7"/>
+<approved hash="5,16,f3550c2a8bf5a15e"/>
+<approved hash="5,16,5e69bf2705eb8a07"/>
+<approved hash="5,16,29ac523351806ad0"/>
 <approved hash="5,16,ce249c27bb0c8c49"/>
 <approved hash="5,16,a5db16c8080ba3d7"/>
 <approved hash="5,16,cfb7fe6c46490348"/>
 <approved hash="5,16,ff02384bfc6ac0a7"/>
 <approved hash="5,16,38c1666765ef414a"/>
 <approved hash="5,16,c5b24633b9804ace"/>
+<approved hash="5,16,ce249c3927121049"/>
 <approved hash="5,16,3430d7dbbb9d51e8"/>
 <approved hash="5,16,7526d7ec3a9d521d"/>
 <approved hash="5,16,cfb7fe72da579f48"/>
-<approved hash="5,16,ce249c3927121049"/>
 <approved hash="5,16,ba5241e16a90db58"/>
 <approved hash="5,16,bb9a467d6cecdb70"/>
 <approved hash="5,16,b20630d8e0190613"/>

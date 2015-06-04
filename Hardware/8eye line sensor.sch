@@ -32021,21 +32021,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <rectangle x1="-0.2286" y1="-0.381" x2="0.2286" y2="0.381" layer="21"/>
 </package>
-<package name="0603">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -32075,21 +32060,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="33OHM1/10W1%(0603)" prefix="R" uservalue="yes">
-<description>RES-08270</description>
+<deviceset name="330OHM1/10W1%(0603)" prefix="R" uservalue="yes">
+<description>RES-00818</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0603">
+<device name="" package="0603-RES">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-08270" constant="no"/>
-<attribute name="VALUE" value="33OHM" constant="no"/>
+<attribute name="PROD_ID" value="RES-00818"/>
+<attribute name="VALUE" value="330" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -32101,13 +32086,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <gate name="&gt;NAME" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0603">
+<device name="" package="0603-RES">
 <connects>
 <connect gate="&gt;NAME" pin="1" pad="1"/>
 <connect gate="&gt;NAME" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09380" constant="no"/>
+<attribute name="VALUE" value="68.1k" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -32189,7 +32177,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U5" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223" value="LM1117"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="4.7KOHM-1/10W-1%(0603)" device="" value="4.7K"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="100OHM-1/10W-1%(0603)" device="" value="100"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="68.1KOHM1/10W1%(0603)" device="" value="68K"/>
+<part name="R4" library="SparkFun-Resistors" deviceset="68.1KOHM1/10W1%(0603)" device="" value="68.1k"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -32212,26 +32200,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="R10" library="SparkFun-Resistors" deviceset="68.1KOHM1/10W1%(0603)" device="" value="68K"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="68.1KOHM1/10W1%(0603)" device="" value="68.1k"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="R12" library="SparkFun-Resistors" deviceset="68.1KOHM1/10W1%(0603)" device="" value="68K"/>
+<part name="R12" library="SparkFun-Resistors" deviceset="68.1KOHM1/10W1%(0603)" device="" value="68.1k"/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="R14" library="SparkFun-Resistors" deviceset="68.1KOHM1/10W1%(0603)" device="" value="68K"/>
+<part name="R14" library="SparkFun-Resistors" deviceset="68.1KOHM1/10W1%(0603)" device="" value="68.1k"/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R15" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="R16" library="SparkFun-Electromechanical" deviceset="TRIMPOT" device="-PTH-KNOB" value="TSR-3386"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="33OHM1/10W1%(0603)" device="" value="33OHM"/>
-<part name="LED2" library="SparkFun-LED" deviceset="LED-GREEN" device="1206-BOTTOM" value="Green"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="330OHM1/10W1%(0603)" device="" value="330"/>
+<part name="D9" library="SparkFun-LED" deviceset="LED-GREEN" device="1206-BOTTOM" value="Green"/>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U105" library="SparkFun-Sensors" deviceset="QRE1113" device="" value="QRE1113"/>
 <part name="R21" library="SparkFun-Resistors" deviceset="100OHM-1/10W-1%(0603)" device="" value="100"/>
-<part name="R22" library="SparkFun-Resistors" deviceset="68.1KOHM1/10W1%(0603)" device="" value="68K"/>
+<part name="R22" library="SparkFun-Resistors" deviceset="68.1KOHM1/10W1%(0603)" device="" value="68.1k"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U106" library="SparkFun-Sensors" deviceset="QRE1113" device="" value="QRE1113"/>
@@ -32247,11 +32235,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="R26" library="SparkFun-Resistors" deviceset="68.1KOHM1/10W1%(0603)" device="" value="68K"/>
+<part name="R26" library="SparkFun-Resistors" deviceset="68.1KOHM1/10W1%(0603)" device="" value="68.1k"/>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="R27" library="SparkFun-Resistors" deviceset="68.1KOHM1/10W1%(0603)" device="" value="68K"/>
+<part name="R27" library="SparkFun-Resistors" deviceset="68.1KOHM1/10W1%(0603)" device="" value="68.1k"/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="R28" library="SparkFun-Resistors" deviceset="68.1KOHM1/10W1%(0603)" device="" value="68K"/>
+<part name="R28" library="SparkFun-Resistors" deviceset="68.1KOHM1/10W1%(0603)" device="" value="68.1k"/>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_PASTE" device="" value="A0"/>
 <part name="SJ2" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_PASTE" device="" value="A1"/>
@@ -32304,8 +32292,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LOGO6" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="STANDOFF3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
-<part name="STANDOFF4" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="U6" library="SparkFun-DigitalIC" deviceset="74*125" device="" technology="AC125DG" value="74AC125"/>
 <part name="U2" library="SparkFun-DigitalIC" deviceset="74*125" device="" technology="AC125DG" value="74AC125"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="2.2UF-10V-20%(0603)" device="" value="2.2uF"/>
@@ -32316,6 +32302,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R33" library="SparkFun-Resistors" deviceset="4.7KOHM-1/10W-1%(0603)" device="" value="4.7K"/>
 <part name="R34" library="SparkFun-Resistors" deviceset="4.7KOHM-1/10W-1%(0603)" device="" value="4.7K"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".2_INCH"/>
+<part name="STANDOFF1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="STANDOFF2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="STANDOFF3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="STANDOFF4" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="STANDOFF5" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="STANDOFF6" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -32403,7 +32395,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="39.37" y="220.726" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R2" gate="G$1" x="73.66" y="213.36" rot="R90"/>
-<instance part="LED2" gate="G$1" x="73.66" y="203.2"/>
+<instance part="D9" gate="G$1" x="73.66" y="203.2"/>
 <instance part="GND16" gate="1" x="73.66" y="193.04"/>
 <instance part="GND17" gate="1" x="398.78" y="193.04"/>
 <instance part="SUPPLY8" gate="G$1" x="289.56" y="231.14"/>
@@ -32503,13 +32495,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="330.2" y="0"/>
 <instance part="JP2" gate="G$1" x="63.5" y="40.64"/>
-<instance part="LOGO2" gate="G$1" x="337.82" y="45.72"/>
-<instance part="LOGO5" gate="G$1" x="406.4" y="50.8"/>
-<instance part="LOGO6" gate="G$1" x="411.48" y="76.2"/>
+<instance part="LOGO2" gate="G$1" x="337.82" y="53.34"/>
+<instance part="LOGO5" gate="G$1" x="406.4" y="58.42"/>
+<instance part="LOGO6" gate="G$1" x="411.48" y="83.82"/>
 <instance part="FID1" gate="G$1" x="403.86" y="40.64"/>
 <instance part="FID2" gate="G$1" x="411.48" y="40.64"/>
-<instance part="STANDOFF3" gate="G$1" x="419.1" y="40.64"/>
-<instance part="STANDOFF4" gate="G$1" x="426.72" y="40.64"/>
 <instance part="U6" gate="G0" x="340.36" y="248.92"/>
 <instance part="U6" gate="G1" x="340.36" y="233.68"/>
 <instance part="U6" gate="G2" x="340.36" y="218.44"/>
@@ -32529,7 +32519,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="R33" gate="G$1" x="170.18" y="40.64" rot="R270"/>
 <instance part="R34" gate="G$1" x="149.86" y="40.64" rot="R270"/>
-<instance part="LOGO1" gate="G$1" x="339.09" y="58.928"/>
+<instance part="LOGO1" gate="G$1" x="339.09" y="66.548"/>
+<instance part="STANDOFF1" gate="G$1" x="419.1" y="40.64"/>
+<instance part="STANDOFF2" gate="G$1" x="426.72" y="40.64"/>
+<instance part="STANDOFF3" gate="G$1" x="419.1" y="48.26"/>
+<instance part="STANDOFF4" gate="G$1" x="426.72" y="48.26"/>
+<instance part="STANDOFF5" gate="G$1" x="419.1" y="55.88"/>
+<instance part="STANDOFF6" gate="G$1" x="426.72" y="55.88"/>
 </instances>
 <busses>
 </busses>
@@ -32628,7 +32624,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="73.66" y1="195.58" x2="73.66" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="D9" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
@@ -33101,7 +33097,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$18" class="0">
 <segment>
 <wire x1="73.66" y1="205.74" x2="73.66" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="D9" gate="G$1" pin="A"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
