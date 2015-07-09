@@ -32748,7 +32748,7 @@ High-power, low thermal resistance package.</description>
 <wire x1="203.2" y1="101.6" x2="203.2" y2="0" width="0.1524" layer="97" style="longdash"/>
 <text x="63.5" y="88.9" size="5.08" layer="97">I2C Expander</text>
 <text x="119.126" y="10.922" size="2.54" layer="97">Set I2C address with SJ1 and SJ2</text>
-<text x="228.6" y="83.058" size="2.54" layer="97">Open SJ3 to disconnect I2C pull-up resistors
+<text x="228.346" y="80.518" size="2.54" layer="97">Open SJ3 to disconnect I2C pull-up resistors
 Move SJ5 to make interface 5v</text>
 <text x="141.986" y="92.456" size="2.54" layer="97">Possible I2C addresses</text>
 <text x="146.05" y="88.9" size="2.54" layer="97" align="top-center">A1:A0
@@ -32926,7 +32926,10 @@ Move SJ5 to make interface 5v</text>
 <instance part="STANDOFF4" gate="G$1" x="426.72" y="48.26"/>
 <instance part="STANDOFF5" gate="G$1" x="419.1" y="55.88"/>
 <instance part="STANDOFF6" gate="G$1" x="426.72" y="55.88"/>
-<instance part="Q1" gate="G$1" x="66.04" y="203.2"/>
+<instance part="Q1" gate="G$1" x="66.04" y="203.2" smashed="yes">
+<attribute name="NAME" x="64.516" y="196.85" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="71.882" y="194.056" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="GND38" gate="1" x="66.04" y="193.04"/>
 <instance part="C8" gate="G$1" x="17.78" y="215.9"/>
 <instance part="GND14" gate="1" x="17.78" y="193.04"/>
