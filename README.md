@@ -30,7 +30,7 @@ Product Versions
 Version History
 ---------------
 * [V_0.4.0](https://github.com/sparkfun/RedBot_Line_Follower_Bar/releases/tag/V_0.4.0) - Last proto version 
-* [vEyyFyyZyyHyyLyySyy](https://github.com/sparkfun/RedBot_Line_Follower_Bar/releases/tag/V_1.0.0) - Release version
+* [V_1.0.0](https://github.com/sparkfun/RedBot_Line_Follower_Bar/releases/tag/V_1.0.0) - Release version
 
 License Information
 -------------------
