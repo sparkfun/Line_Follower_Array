@@ -1,49 +1,47 @@
-#RedBot_Line_Follower_Bar  
-##Example Sketch Descriptions
-* AveragingFollower  
- _Does a sort of over-sampling on the sensor readings, doesn't work too well_
+SparkFun RedBot Line Follower Sensor Bar
+========================================
 
-* AveragingReadBarOnly  
- _Like the_ AveragingFollower _but doesn't drive, outputs serial_
+![RedBot Line Follower Sensor Bar](https://cdn.sparkfun.com/r/140-140/assets/parts/1/0/2/8/8/13166-07a.jpg)
 
-* LessBasicFollower  
- _Like the_ MostBasicFollower _with an additional "corner detected" action_
+[*RedBot Line Follower Sensor Bar (SKU-00000)*](http://www.sparkfun.com)
 
-* MostBasicFollower  
- _Simply tries to steer towards center. **After playing with the sensor, run this sketch on an actual robot course**_
+The Sensor Bar takes an 8 bit reading of reflectance for use with following lines or reading dark/light patterns.  The bar can see from about 1/4 to 3/4 inches away.  IR illumination power can be adjusted with the on-board potentiometer.  Illumination can be turned on and off with software to conserve power, or left on all the time for faster readings.
 
-* NintendoControlled  
- _run the redBot by XBee!  Need to form a packet on the airwaves..._
+Repository Contents
+-------------------
 
-* ReadBarOnly  
- _Dump the various method calls to the serial term. **This is a good place to start**_
+* **/Documentation** - Data sheets, additional product information
+* **/Hardware** - Eagle design files (.brd, .sch)
+* **/Libraries** - Libraries for use with the RedBot Line Follower Sensor Bar
+* **/Production** - Production panel files (.brd)
 
-##Method Descriptions
+Documentation
+--------------
+* **[Library](https://github.com/sparkfun/RedBot_Line_Follower_Bar_Arduino_Library)** - Arduino library for the Sensor Bar.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/redbot-line-following-sensor-bar-hookup-guide)** - Basic hookup guide for the Sensor Bar.
+* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
+* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 
-####SensorBar::SensorBar()  
-This is the constructor.  It takes no arguements and does nothing.
-
-####uint8_t SensorBar::getRaw( void )  
-The method getRaw() takes no arguements and returns a picture of what the bar sees in bits.
-
-![Leftmost2](https://github.com/marshalltaylorSFE/staged_photos/raw/master/left2.png)  
-If the bar sees a line (dark) under the left most two sensors, getRaw() would return 0xC0, or 1100000b
-
-####int8_t SensorBar::getPosition( void )  
-Use this method to get an average direction of where the line is, as a number from -127 to 127.  
-
-![Leftmost2](https://github.com/marshalltaylorSFE/staged_photos/raw/master/left2.png)  
-With the left most two detectors example, this method returns decimal 111.
-
-![Leftmost2](https://github.com/marshalltaylorSFE/staged_photos/raw/master/left4.png)  
-If the left 4 are covered, it returns 79.
+Product Versions
+----------------
+* [SEN-00000](part URL)- Basic part and short description here
 
 
-A way to conceptualize this method is that it returns a 1 dimetional vector that points to the center of the density of the detected line.
+Version History
+---------------
+* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
+* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
 
-####uint8_t SensorBar::getDensity( void )  
-This method returns the number of sensors that detect dark, 0 through 8.
+License Information
+-------------------
 
-####void SensorBar::scan( void )  
-**This method must be periodically called!**  It operates the I2C machine and updates the internal class members so that the other functions work
+This product is _**open source**_! 
+
+Please review the LICENSE.md file for license information. 
+
+If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
+
+Distributed as-is; no warranty is given.
+
+- Your friends at SparkFun.
 
