@@ -32707,7 +32707,7 @@ High-power, low thermal resistance package.</description>
 <sheet>
 <plain>
 <text x="355.092" y="11.43" size="2.54" layer="94">Marshall Taylor</text>
-<text x="419.608" y="6.858" size="2.54" layer="94">V04</text>
+<text x="419.608" y="6.858" size="2.54" layer="94">V10</text>
 <text x="193.04" y="254" size="2.54" layer="97">Low order nibble</text>
 <text x="37.592" y="260.35" size="2.54" layer="97">Supply +5V</text>
 <text x="165.1" y="266.7" size="5.08" layer="97">Sensors</text>

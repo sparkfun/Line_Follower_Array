@@ -173,7 +173,7 @@
 <text x="94.2975" y="13.97" size="1.016" layer="21" font="vector" ratio="15" align="center">5V</text>
 <text x="99.1235" y="9.2075" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">GND</text>
 <text x="104.521" y="9.2075" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">INT</text>
-<text x="7.62" y="1.27" size="1.27" layer="16" font="vector" ratio="15" rot="MR180" align="center-right">v04</text>
+<text x="7.62" y="1.27" size="1.27" layer="16" font="vector" ratio="15" rot="MR180" align="center-right">v10</text>
 <text x="82.68335" y="18.48485" size="0.8128" layer="21" font="vector" ratio="15" rot="R270">I2C PULL</text>
 <text x="60.29325" y="15.24" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="bottom-center">A0</text>
 <text x="58.57875" y="13.0175" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">0</text>
