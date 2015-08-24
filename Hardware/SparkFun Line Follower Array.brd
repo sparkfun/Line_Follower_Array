@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,7 +28,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="15" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -156,7 +156,7 @@
 <wire x1="106.68" y1="0" x2="106.68" y2="27.94" width="0.2032" layer="20"/>
 <wire x1="106.68" y1="27.94" x2="0" y2="27.94" width="0.2032" layer="20"/>
 <wire x1="0" y1="27.94" x2="0" y2="0" width="0.2032" layer="20"/>
-<text x="2.54" y="1.42875" size="1.778" layer="21" font="vector" ratio="15">RedBot Sensor Bar</text>
+<text x="66.675" y="8.03275" size="1.778" layer="21" font="vector" ratio="15">Line Follower Array</text>
 <text x="8.5725" y="22.86" size="1.778" layer="21" font="vector" ratio="15" align="center">b7</text>
 <text x="22.06625" y="22.86" size="1.778" layer="21" font="vector" ratio="15" align="center">b6</text>
 <text x="47.3075" y="22.86" size="1.778" layer="21" font="vector" ratio="15" align="center">b4</text>
@@ -3415,7 +3415,7 @@ design rules under a new name.</description>
 <element name="JP2" library="SparkFun-Connectors" package="1X01" value="INT" x="104.14" y="11.43"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="63.6905" y="3.6449" rot="MR0"/>
 <element name="LOGO5" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.3" value="SFE_LOGO_FLAME.3_INCH" x="8.80745" y="3.683" rot="MR0"/>
-<element name="LOGO6" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="99.06" y="5.08"/>
+<element name="LOGO6" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="102.87" y="5.08"/>
 <element name="FID1" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="2.54" y="2.54" rot="MR0"/>
 <element name="FID2" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="104.14" y="20.32" rot="MR0"/>
 <element name="U6" library="SparkFun-DigitalIC" package="SO14" value="74AC125" x="34.29" y="13.335" rot="MR270">
